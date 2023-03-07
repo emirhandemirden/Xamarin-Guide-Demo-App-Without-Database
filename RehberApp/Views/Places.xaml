@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RehberApp.Views.Places"
+             BackgroundColor="{Binding PageBgColor}">
+    <Grid Padding="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <CollectionView ItemsSource="{Binding itemSource}" ItemsLayout="VerticalList" Grid.Column="0" x:Name="PlacesList" >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <ContentView>
+                        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <Button x:Name="PlacesButton" HeightRequest="75" Text="{Binding Name}" FontSize="20" FontAttributes="Bold" TextColor="white" BackgroundColor="DodgerBlue" HorizontalOptions="Fill" VerticalOptions="Fill" Margin="5" Clicked="Places_Clicked" />
+                        </Grid>
+                    </ContentView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

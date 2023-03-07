@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RehberApp.MainPage"
+             BackgroundImageSource="{Binding BgImage}" >
+
+    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Grid Margin="30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <ImageButton x:Name="ThemeButton" HeightRequest="25" WidthRequest="25" Source="{Binding Source}" HorizontalOptions="End" VerticalOptions="End" BackgroundColor="Transparent" Clicked="ThemeButton_Clicked" />
+            </Grid>
+            <Label Grid.Row="1" Text="Menü" FontSize="40" FontAttributes="Bold" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" Padding="10" />
+            <Grid Grid.Row="2" Margin="0,20,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="25" />
+                </Grid.ColumnDefinitions>
+                <Button x:Name="Turkish" Grid.Column="0" Text="Türkçe" HorizontalOptions="End" Clicked="Turkish_Clicked" BackgroundColor="Transparent" />
+                <ImageButton Source="@android:drawable/TurkiyeSquare.png" Grid.Column="1" WidthRequest="25" HeightRequest="25" Clicked="Turkish_Clicked" BackgroundColor="Transparent" />
+            </Grid>
+            <Grid Grid.Row="3" Margin="0,20,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="25" />
+                </Grid.ColumnDefinitions>
+                <Button x:Name="English" Grid.Column="0" Text="English" HorizontalOptions="End" Clicked="English_Clicked" BackgroundColor="Transparent" />
+                <ImageButton Source="@android:drawable/EnglandSquare.png" Grid.Column="1" WidthRequest="25" HeightRequest="25" Clicked="English_Clicked" BackgroundColor="Transparent" />
+            </Grid>
+        </Grid>
+    </Grid>
+
+</ContentPage>

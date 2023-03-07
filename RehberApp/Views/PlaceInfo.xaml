@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RehberApp.Views.PlaceInfo"
+             Title="Yer Bilgisi"
+             BackgroundColor="{Binding PageBgColor}">
+    <Grid Padding="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackLayout Padding="10" Grid.Row="0">
+            <CarouselView x:Name="Carousel" HeightRequest="200" IndicatorView="IndicatorView">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Image Source="{Binding Url}" />
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <IndicatorView x:Name="IndicatorView" IndicatorColor="Gray" SelectedIndicatorColor="DarkGray" IndicatorSize="10" VerticalOptions="Center" Padding="5" />
+        </StackLayout>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label x:Name="Title" Text="Başlık" TextColor="Black" Margin="10" Padding="10" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" FontSize="35" FontAttributes="Bold" />
+            <Label x:Name="Description" Text="{Binding Text}" TextType="Html" TextColor="Black" Margin="10" Padding="10" Grid.Row="1" VerticalOptions="Center" FontSize="15" />
+            <Label x:Name="ClosePlaces" Text="{Binding Text}" TextType="Html" TextColor="Black" Margin="10" Padding="10" Grid.Row="2" VerticalOptions="Center" FontSize="15" />
+            <Button x:Name="Way" Text="Yol Tarifi" TextColor="Black" Margin="10" Padding="10" Grid.Row="3" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent" FontSize="15" Clicked="Way_Clicked"/>
+        </Grid>
+    </Grid>
+</ContentPage>

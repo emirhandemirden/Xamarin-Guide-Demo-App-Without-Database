@@ -1,0 +1,17 @@
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\bin\Debug\netstandard2.0\RehberApp.deps.json
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\bin\Debug\netstandard2.0\RehberApp.dll
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\bin\Debug\netstandard2.0\ref\RehberApp.dll
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\bin\Debug\netstandard2.0\RehberApp.pdb
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\RehberApp.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\RehberApp.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\RehberApp.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\RehberApp.AssemblyInfo.cs
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\RehberApp.dll
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\ref\RehberApp.dll
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\RehberApp.pdb
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\Views\Places.xaml.g.cs
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\Views\Place.xaml.g.cs
+C:\Users\PC\source\repos\RehberApp\RehberApp\RehberApp\obj\Debug\netstandard2.0\Views\PlaceInfo.xaml.g.cs
